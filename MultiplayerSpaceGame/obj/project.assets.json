@@ -1,0 +1,174 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "UnityEditor/2019.3.2.1": {
+        "type": "package"
+      },
+      "UnityEngine/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/UnityEngine.dll": {}
+        },
+        "runtime": {
+          "lib/UnityEngine.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "UnityEditor/2019.3.2.1": {
+      "sha512": "hdAb+aOREQAdvgEiD63NyLeKJ7BogHkmHTuuTQtr3W9VW3P5vJ7vKbzOVnJ2MPWyTqJ3DYWNz5eC0UClfhU2vw==",
+      "type": "package",
+      "path": "unityeditor/2019.3.2.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "favicon.png",
+        "license.txt",
+        "unityeditor.2019.3.2.1.nupkg.sha512",
+        "unityeditor.nuspec"
+      ]
+    },
+    "UnityEngine/1.0.0": {
+      "sha512": "4e5TFELT89DzkWxYwvGWyMGU4+iaDoe1L04NtMFbTh7e3t3CRtyfxDqc37MIPPT3dcjnBUFyv4UEy8Ot2v6jNQ==",
+      "type": "package",
+      "path": "unityengine/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/UnityEngine.dll",
+        "unityengine.1.0.0.nupkg.sha512",
+        "unityengine.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "Unity.Netcode >= 1.0.0",
+      "UnityEditor >= 1.0.0",
+      "UnityEngine >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "/Users/ra20379062/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/ra20379062/Devops/RamkiR1819/MultiplayerSpaceGame/MultiplayerSpaceGame.csproj",
+      "projectName": "MultiplayerSpaceGame",
+      "projectPath": "/Users/ra20379062/Devops/RamkiR1819/MultiplayerSpaceGame/MultiplayerSpaceGame.csproj",
+      "packagesPath": "/Users/ra20379062/.nuget/packages/",
+      "outputPath": "/Users/ra20379062/Devops/RamkiR1819/MultiplayerSpaceGame/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/Users/ra20379062/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.200"
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "dependencies": {
+          "Unity.Netcode": {
+            "target": "Package",
+            "version": "[1.0.0, )"
+          },
+          "UnityEditor": {
+            "target": "Package",
+            "version": "[1.0.0, )"
+          },
+          "UnityEngine": {
+            "target": "Package",
+            "version": "[1.0.0, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[6.0.36, 6.0.36]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.osx-arm64",
+            "version": "[6.0.36, 6.0.36]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[6.0.36, 6.0.36]"
+          }
+        ],
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.203/RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "MultiplayerSpaceGame depends on UnityEditor (>= 1.0.0) but UnityEditor 1.0.0 was not found. UnityEditor 2019.3.2.1 was resolved instead.",
+      "libraryId": "UnityEditor",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package Unity.Netcode. No packages exist with this id in source(s): nuget.org",
+      "libraryId": "Unity.Netcode",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'UnityEngine 1.0.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "UnityEngine",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
+}

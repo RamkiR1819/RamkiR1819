@@ -1,0 +1,44 @@
+{
+  "version": 2,
+  "dgSpecHash": "pRz/RlF9BIg=",
+  "success": false,
+  "projectFilePath": "/Users/ra20379062/Devops/RamkiR1819/MultiplayerSpaceGame/MultiplayerSpaceGame.csproj",
+  "expectedPackageFiles": [
+    "/Users/ra20379062/.nuget/packages/unityeditor/2019.3.2.1/unityeditor.2019.3.2.1.nupkg.sha512",
+    "/Users/ra20379062/.nuget/packages/unityengine/1.0.0/unityengine.1.0.0.nupkg.sha512",
+    "/Users/ra20379062/.nuget/packages/microsoft.netcore.app.ref/6.0.36/microsoft.netcore.app.ref.6.0.36.nupkg.sha512",
+    "/Users/ra20379062/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.36/microsoft.aspnetcore.app.ref.6.0.36.nupkg.sha512",
+    "/Users/ra20379062/.nuget/packages/microsoft.netcore.app.host.osx-arm64/6.0.36/microsoft.netcore.app.host.osx-arm64.6.0.36.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "MultiplayerSpaceGame depends on UnityEditor (>= 1.0.0) but UnityEditor 1.0.0 was not found. UnityEditor 2019.3.2.1 was resolved instead.",
+      "libraryId": "UnityEditor",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package Unity.Netcode. No packages exist with this id in source(s): nuget.org",
+      "libraryId": "Unity.Netcode",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'UnityEngine 1.0.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "UnityEngine",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
+}

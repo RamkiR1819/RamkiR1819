@@ -1,0 +1,35 @@
+{
+  "playerLimit": 4,
+  "gameModes": [
+    "Racing",
+    "Flying",
+    "Parking",
+    "Fighting",
+    "Challenges"
+  ],
+  "defaultModule": "Car",
+  "moduleSwitching": {
+    "enabled": true,
+    "switchCooldown": 5
+  },
+  "racingSettings": {
+    "maxLaps": 3,
+    "checkpointCount": 5
+  },
+  "flyingSettings": {
+    "maxAltitude": 10000,
+    "navigationAssist": true
+  },
+  "parkingSettings": {
+    "challengeCount": 3,
+    "timeLimit": 120
+  },
+  "fightingSettings": {
+    "maxHealth": 100,
+    "damageMultiplier": 1.5
+  },
+  "challengeSettings": {
+    "dailyChallenges": true,
+    "challengeReward": 50
+  }
+}

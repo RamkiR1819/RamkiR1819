@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Prefab>
+  <Name>HUD</Name>
+  <Components>
+    <Component type="Canvas">
+      <Properties>
+        <Property name="RenderMode" value="ScreenSpaceOverlay" />
+        <Property name="SortOrder" value="0" />
+      </Properties>
+    </Component>
+    <Component type="Image">
+      <Properties>
+        <Property name="Color" value="#000000" />
+        <Property name="RectTransform" value="0,0,1920,1080" />
+      </Properties>
+    </Component>
+    <Component type="Text">
+      <Properties>
+        <Property name="Text" value="Welcome to Multiplayer Space Game!" />
+        <Property name="FontSize" value="24" />
+        <Property name="Color" value="#FFFFFF" />
+        <Property name="RectTransform" value="960,540,0,0" />
+      </Properties>
+    </Component>
+    <Component type="Button">
+      <Properties>
+        <Property name="Text" value="Start Game" />
+        <Property name="RectTransform" value="960,480,200,50" />
+      </Properties>
+    </Component>
+  </Components>
+</Prefab>

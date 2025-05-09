@@ -1,0 +1,57 @@
+<attachment id="file:Parking.unity">
+<unity>
+  <Scene>
+    <Name>Parking</Name>
+    <Description>This scene is designed for parking gameplay mechanics, including various parking challenges and vehicle positioning.</Description>
+    <GameObjects>
+      <GameObject>
+        <Name>ParkingArea</Name>
+        <Type>Empty</Type>
+        <Components>
+          <Component>
+            <Type>BoxCollider</Type>
+            <IsTrigger>true</IsTrigger>
+          </Component>
+          <Component>
+            <Type>ParkingController</Type>
+          </Component>
+        </Components>
+      </GameObject>
+      <GameObject>
+        <Name>PlayerVehicle</Name>
+        <Type>Car</Type>
+        <PrefabPath>Assets/Prefabs/Vehicles/Car.prefab</PrefabPath>
+        <Components>
+          <Component>
+            <Type>Rigidbody</Type>
+            <Mass>1500</Mass>
+          </Component>
+          <Component>
+            <Type>VehicleController</Type>
+          </Component>
+        </Components>
+      </GameObject>
+      <GameObject>
+        <Name>ParkingSpot1</Name>
+        <Type>Empty</Type>
+        <Components>
+          <Component>
+            <Type>BoxCollider</Type>
+            <IsTrigger>true</IsTrigger>
+          </Component>
+        </Components>
+      </GameObject>
+      <GameObject>
+        <Name>ParkingSpot2</Name>
+        <Type>Empty</Type>
+        <Components>
+          <Component>
+            <Type>BoxCollider</Type>
+            <IsTrigger>true</IsTrigger>
+          </Component>
+        </Components>
+      </GameObject>
+    </GameObjects>
+  </Scene>
+</unity>
+</attachment>

@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>MultiplayerSpaceGame</RootNamespace>
+    <AssemblyName>MultiplayerSpaceGame</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Unity.Netcode" Version="1.0.0" />
+    <PackageReference Include="UnityEngine" Version="1.0.0" />
+    <PackageReference Include="UnityEditor" Version="1.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="Assets\Scripts\Core\GameManager.cs" />
+    <Compile Include="Assets\Scripts\Core\ModuleManager.cs" />
+    <Compile Include="Assets\Scripts\Core\NetworkManager.cs" />
+    <Compile Include="Assets\Scripts\Gameplay\Racing\RacingController.cs" />
+    <Compile Include="Assets\Scripts\Gameplay\Flying\FlyingController.cs" />
+    <Compile Include="Assets\Scripts\Gameplay\Parking\ParkingController.cs" />
+    <Compile Include="Assets\Scripts\Gameplay\Fighting\FightingController.cs" />
+    <Compile Include="Assets\Scripts\Gameplay\Challenges\ChallengeManager.cs" />
+    <Compile Include="Assets\Scripts\UI\UIManager.cs" />
+  </ItemGroup>
+
+</Project>

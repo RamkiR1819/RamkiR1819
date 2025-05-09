@@ -1,0 +1,6 @@
+// This prefab defines the car vehicle used in the multiplayer space game. 
+// It includes components for movement, collision detection, and interaction with other game modules. 
+// The prefab is designed to be instantiated in the game scenes for racing, parking, and other gameplay mechanics. 
+// Ensure to configure the Rigidbody and Collider components for proper physics interactions. 
+// Additional scripts can be attached to enhance functionality, such as RacingController or ParkingController. 
+// This file is intentionally left blank as the prefab structure is defined in the Unity Editor.
